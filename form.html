@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Registration</title>
+</head>
+<body>
+    <h1><u>Om-ma Marinate Member Registration</u></h1>
+    <p><strong>Register as a member to collect points and get exclusive offers!</strong></p>
+
+    <form action="" method="post">
+        <div>
+            <label>
+                Your Username :
+                <input type="text" name="customer_username" placeholder="Username" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                Your Password :
+                <input type="password" name="customer_password" placeholder="Password" required>
+            </label><br>
+        </div>
+        <br>
+        <div>
+            <label>
+                Your email :
+                <input type="email" name="customer_email" placeholder="Email" required>
+            </label><br>
+        </div>
+        <br>
+        <div>
+            <label>
+                Your phone number :
+                <input type="tel" name="customer_phone" placeholder="Phone Number" required>
+            </label><br>
+        </div>
+        <br>
+
+    <p><strong>Choose your plan:</strong></p>
+        <div>
+            <label>
+                <input type="radio" name="plan" value="Basic" required> Little Salmon Plan
+            </label><br>
+            <label>
+                <input type="radio" name="plan" value="Premium"> King Salmon Plan
+            </label><br>
+        </div>
+        <br>
+        
+    <p><strong>Channels for Receiving Information</strong></p>
+        <div>
+            <label>
+                <input type="checkbox" name="channels" value="email" required> Email
+            </label><br>
+            <label>
+                <input type="checkbox" name="channels" value="sms"> SMS
+            </label><br>
+            <label>
+                <input type="checkbox" name="channels" value="refuse"> I don't want to receive any information
+            </label><br>
+        </div>
+        <br>
+
+    <button type="submit">Join Now!</button>
+
+    </form>
+</body>
+</html>
